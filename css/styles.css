@@ -1,0 +1,178 @@
+/* цвет основного текста #fff */
+/* основной черный цвет текста и бекграунд #2E2F42 */
+/* Менее черный цвет текста #434455 */
+/* цвет слова web и кнопок #4D5AE5 */
+/* цвет текста футера и слова Studio #F4F4FD */
+/* портфолио заливка кнопок #E7E9FC */
+
+
+:root{
+    --primary-tittle-color: #4D5AE5;
+
+}
+
+
+
+/* HEADER ! ! ! */
+.list{
+    list-style: none;
+}
+.list{
+    text-decoration: none;
+}
+.list{
+    outline: none;
+}
+.list:hover,
+.list:focus{
+    color: #404BBF;
+}
+
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-tittle-color);
+}
+.addlogocolor{
+   color:#2E2F42;
+}
+.menu-item{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.contact-list{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/* HEROOO! ! !  */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background: #2E2F42;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.btn-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+    
+    .btn-link:hover,
+    .btn-link:focus
+    {
+        background: #404BBF
+    }
+    .btn-link{
+        cursor: pointer;
+    }
+/* SECTION ОСОБЛИВОСТІ */
+.content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.information-content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* HEADER 2 ! ! ! !  */
+.addheader
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.ourteam-content
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+align: left;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.work-content
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.background-color{
+    background: #2E2F42;
+}
