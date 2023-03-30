@@ -4,11 +4,15 @@
     --tittle-text-color: #2E2F42;
     --accent-color: #404BBF;
     --background-color: #FFFFFF;
+    --background-dop-color: #F4F4FD;
 }
 
 
 
 /* HEADER ! ! ! */
+.adress-list{
+    font-style: normal;
+}
 a{
     text-decoration: none;
 }
@@ -25,7 +29,9 @@ a{
 .list:focus{
     color: var(--accent-color);
 }
-
+.link{
+    text-decoration: none;
+}
 .logotype {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -78,13 +84,13 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07 ;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 .btn-link{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -136,15 +142,30 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    text-align: left;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 }
+.addheader-team{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+background-color: var(--background-dop-color)
+}
+.photo-back{
+    background-color: var(--background-color);
+}
 .ourteam-content
 {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -173,20 +194,36 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+.footer-backcolor{
+    color: var(--background-dop-color);
+
+}
 .background-color{
     background: #2E2F42;
 }
 .btn-portfolio{
-    background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-flex: none;
-order: 1;
-flex-grow: 0;
+    color: var(--secondary-text-color);
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+.btn-portfolio:hover{
+    color: var(--background-color);
+    background-color: var(--accent-color)
+}
+.btn-portfolio:focus{
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+.btn-portfolio{
+    cursor: pointer;
 }
 .content-portfolio{
     color: var(--tittle-text-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
