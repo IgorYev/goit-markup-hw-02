@@ -164,6 +164,9 @@ background-color: var(--background-dop-color)
 
 background: #F4F4FD;
 }
+.back-white{
+    background-color: #FFFFFF
+}
 .photo-back{
     background-color: var(--background-color);
 }
