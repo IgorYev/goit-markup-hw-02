@@ -3,6 +3,7 @@
     --secondary-text-color: #4D5AE5;
     --tittle-text-color: #2E2F42;
     --accent-color: #404BBF;
+    --background-color: #FFFFFF;
 }
 
 
@@ -30,12 +31,12 @@ font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--accent-color)
+color: var(--secondary-text-color)
 }
 .addlogocolor{
    color:#2E2F42;
@@ -63,6 +64,8 @@ color: var(--accent-color)
 /* HEROOO! ! !  */
 body{
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
 }
 .hero{
     background: #2E2F42;
