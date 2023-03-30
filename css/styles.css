@@ -160,6 +160,10 @@ text-transform: capitalize;
 color: #2E2F42;
 background-color: var(--background-dop-color)
 }
+.team-back{
+
+background: #F4F4FD;
+}
 .photo-back{
     background-color: var(--background-color);
 }
