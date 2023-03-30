@@ -1,19 +1,16 @@
-/* цвет основного текста #fff */
-/* основной черный цвет текста и бекграунд #2E2F42 */
-/* Менее черный цвет текста #434455 */
-/* цвет слова web и кнопок #4D5AE5 */
-/* цвет текста футера и слова Studio #F4F4FD */
-/* портфолио заливка кнопок #E7E9FC */
-
-
 :root{
-    --primary-tittle-color: #4D5AE5;
-
+    --primary-text-color: #434455;
+    --secondary-text-color: #4D5AE5;
+    --tittle-text-color: #2E2F42;
+    --accent-color: #404BBF;
 }
 
 
 
 /* HEADER ! ! ! */
+a{
+    text-decoration: none;
+}
 .list{
     list-style: none;
 }
@@ -25,7 +22,7 @@
 }
 .list:hover,
 .list:focus{
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 .logotype {
@@ -38,7 +35,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--primary-tittle-color);
+color: var(--accent-color)
 }
 .addlogocolor{
    color:#2E2F42;
@@ -175,4 +172,32 @@ color: #2E2F42;
 }
 .background-color{
     background: #2E2F42;
+}
+.btn-portfolio{
+    background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.content-portfolio{
+    color: var(--tittle-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+.features{
+    width: 75px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
 }
