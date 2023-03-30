@@ -29,6 +29,11 @@ a{
 .list:focus{
     color: var(--accent-color);
 }
+.menu-item:hover,
+.menu-item:focus{
+    color: var(--accent-color);
+}
+
 .link{
     text-decoration: none;
 }
