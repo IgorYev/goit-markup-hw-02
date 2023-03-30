@@ -205,6 +205,9 @@ color: #2E2F42;
 .background-color{
     background: #2E2F42;
 }
+.portfolio-h{
+    background-color: var(--background-color);
+}
 .btn-portfolio{
     color: var(--secondary-text-color);
     font-family: 'Roboto', sans-serif;
