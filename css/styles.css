@@ -37,6 +37,10 @@ a{
 .link{
     text-decoration: none;
 }
+.contact-list:hover,
+.contact-list:focus{
+    color: var(--accent-color);
+}
 .logotype {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
