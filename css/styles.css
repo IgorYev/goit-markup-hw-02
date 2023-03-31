@@ -30,8 +30,8 @@ a{
 .list:focus{
     color: var(--accent-color);
 }
-.menu-item:hover,
-.menu-item:focus{
+.item:hover,
+.item:focus{
     color: var(--accent-color);
 }
 
@@ -58,7 +58,7 @@ color: var(--secondary-text-color)
 .addlogocolor{
    color:var(--tittle-text-color);
 }
-.menu-item{
+.item{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
