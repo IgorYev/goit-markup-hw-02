@@ -56,7 +56,16 @@ text-transform: uppercase;
 color: var(--secondary-text-color)
 }
 .addlogocolor{
-   color:var(--tittle-text-color);
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--tittle-text-color);
 }
 .item{
     font-family: 'Roboto', sans-serif;
@@ -81,8 +90,8 @@ color: var(--secondary-text-color)
 /* HEROOO! ! !  */
 body{
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color);
-    background-color: var(--background-color);
+    /* color: var(--primary-text-color);
+    background-color: var(--background-color); */
 }
 .hero{
     background: #2E2F42;
