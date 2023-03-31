@@ -35,6 +35,7 @@ a{
     color: var(--accent-color);
 }
 
+
 .link{
     text-decoration: none;
 }
@@ -55,7 +56,7 @@ text-transform: uppercase;
 color: var(--secondary-text-color)
 }
 .addlogocolor{
-   color:#2E2F42;
+   color:var(--tittle-text-color);
 }
 .menu-item{
     font-family: 'Roboto', sans-serif;
@@ -64,7 +65,7 @@ color: var(--secondary-text-color)
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--tittle-text-color);
 }
 .contact-list{
     font-family: 'Roboto', sans-serif;
@@ -73,7 +74,7 @@ color: var(--secondary-text-color)
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 
@@ -97,19 +98,19 @@ body{
     line-height: 1.07 ;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 .btn-link{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--background-color);
+    background: var(--secondary-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     }
@@ -128,18 +129,18 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--tittle-text-color);
 }
 .information-content{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;  
+    line-height: 1.5;  
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -156,7 +157,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--tittle-text-color);
 }
 .addheader-team{
 font-family: 'Roboto';
@@ -167,15 +168,15 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color:var(--tittle-text-color);
 background-color: var(--background-dop-color)
 }
 .team-back{
 
-background: #F4F4FD;
+background: var(--background-dop-color);
 }
 .back-white{
-    background-color: #FFFFFF
+    background-color: var(--background-color)
 }
 .photo-back{
     background-color: var(--background-color);
@@ -186,10 +187,10 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 align: left;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--tittle-text-color);
 }
 .work-content
 {
@@ -197,26 +198,26 @@ color: #2E2F42;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: left;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--primary-text-color);
 }
 .footer-text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--background-dop-color);
 }
 .footer-backcolor{
     color: var(--background-dop-color);
 
 }
 .background-color{
-    background: #2E2F42;
+    background: var(--tittle-text-color);
 }
 .portfolio-h{
     background-color: var(--background-color);
@@ -248,7 +249,7 @@ background-color: var(--background-dop-color);
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .features{
@@ -258,7 +259,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color:var(--primary-text-color);
 }
