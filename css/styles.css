@@ -43,6 +43,7 @@ a{
 .contact-list:focus{
     color: var(--accent-color);
 }
+
 .logotype {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -90,8 +91,8 @@ color:var(--tittle-text-color);
 /* HEROOO! ! !  */
 body{
     font-family: 'Roboto', sans-serif;
-    /* color: var(--primary-text-color);
-    background-color: var(--background-color); */
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
 }
 .hero{
     background: #2E2F42;
