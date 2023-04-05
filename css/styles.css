@@ -13,19 +13,11 @@
 .adress-list{
     font-style: normal;
 }
-a{
-    list-style: none;
-    text-decoration: none;
-}
+
 .list{
     list-style: none;
 }
-.list{
-    text-decoration: none;
-}
-.list{
-    outline: none;
-}
+
 .list:hover,
 .list:focus{
     color: var(--accent-color);
@@ -35,10 +27,10 @@ a{
     color: var(--accent-color);
 }
 
-
 .link{
     text-decoration: none;
 }
+
 .contact-list:hover,
 .contact-list:focus{
     color: var(--accent-color);
@@ -46,7 +38,6 @@ a{
 
 .logotype {
 font-family: 'Raleway', sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -54,11 +45,10 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--secondary-text-color)
+color: var(--secondary-text-color);
 }
 .addlogocolor{
     font-family: 'Raleway', sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -69,8 +59,7 @@ text-transform: uppercase;
 color:var(--tittle-text-color);
 }
 .item{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -78,7 +67,7 @@ color:var(--tittle-text-color);
     color: var(--tittle-text-color);
 }
 .contact-list{
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -95,15 +84,13 @@ body{
     background-color: var(--background-color);
 }
 .hero{
-    background: #2E2F42;
+    background: var(--tittle-text-color);
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .title{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: sans-serif;
     font-size: 56px;
     line-height: 1.07 ;
     text-align: center;
@@ -111,8 +98,7 @@ body{
     color: var(--background-color);
 }
 .btn-link{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -128,7 +114,7 @@ body{
     .btn-link:hover,
     .btn-link:focus
     {
-        background: #404BBF
+        background: var(--accent-color);
     }
     .btn-link{
         cursor: pointer;
@@ -136,7 +122,6 @@ body{
 /* SECTION ОСОБЛИВОСТІ */
 .content{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -145,23 +130,17 @@ body{
 }
 .information-content{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;  
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 /* HEADER 2 ! ! ! !  */
 .addheader
 {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -171,22 +150,20 @@ body{
 }
 .addheader-team{
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color:var(--tittle-text-color);
-background-color: var(--background-dop-color)
+background-color: var(--background-dop-color);
 }
 .team-back{
 
 background: var(--background-dop-color);
 }
 .back-white{
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
 .photo-back{
     background-color: var(--background-color);
@@ -194,7 +171,6 @@ background: var(--background-dop-color);
 .ourteam-content
 {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -205,8 +181,6 @@ color: var(--tittle-text-color);
 .work-content
 {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
@@ -215,8 +189,6 @@ color: var(--tittle-text-color);
 }
 .footer-text{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -256,7 +228,6 @@ background-color: var(--background-dop-color);
 .content-portfolio{
     color: var(--tittle-text-color);
     font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -266,8 +237,6 @@ letter-spacing: 0.02em;
     width: 75px;
 height: 24px;
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
